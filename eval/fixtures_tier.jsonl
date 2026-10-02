@@ -1,0 +1,18 @@
+{"brief": "Fix typo in README: 'recieve' -> 'receive'.", "expected": "haiku"}
+{"brief": "Rename variable `tmp` to `scratch_dir` in scripts/cleanup.py and update its two call sites.", "expected": "haiku"}
+{"brief": "Sort imports and remove unused ones in src/jev_poc/client.py using ruff.", "expected": "haiku"}
+{"brief": "Summarize the contents of docs/architecture.md into five bullet points.", "expected": "haiku"}
+{"brief": "Fix the off-by-one in paginate(): the last page is dropped when total % page_size == 0. Add a regression test.", "expected": "sonnet"}
+{"brief": "Implement retry with exponential backoff for the Jev HTTP call in client.py, honoring JEV_TIMEOUT_S.", "expected": "sonnet"}
+{"brief": "Refactor hooks/jev_risk_gate.py to extract the verdict-to-output mapping into a tested function.", "expected": "sonnet"}
+{"brief": "Add a new Score question type to the tier router for task complexity 0-2.", "expected": "sonnet"}
+{"brief": "Write unit tests for shadow.py append/read_all covering corrupt lines.", "expected": "sonnet"}
+{"brief": "Design the auth model for multi-tenant skill execution: per-tenant API keys, key rotation, audit.", "expected": "opus"}
+{"brief": "Diagnose the intermittent deadlock between the hook subprocess and the PTY reader under concurrent tool calls.", "expected": "opus"}
+{"brief": "Propose a migration from fail-open to fail-closed for the risk gate in regulated tenants, with break-glass.", "expected": "opus"}
+{"brief": "Review the threat model of sending tool-call text to a third-party decision API; propose mitigations.", "expected": "opus"}
+{"brief": "Debug why updatedInput.model is ignored for Task calls in one project but honored in another.", "expected": "sonnet"}
+{"brief": "Update the README wiring section after testing the hooks on Windows.", "expected": "sonnet"}
+{"brief": "Fix flaky test in tests/test_logic.py that depends on dict ordering.", "expected": "haiku"}
+{"brief": "Add docstrings to every public function in src/jev_poc.", "expected": "haiku"}
+{"brief": "Evaluate whether Jev Choice confidence is calibrated on our tier fixtures; propose a recalibration.", "expected": "opus"}
